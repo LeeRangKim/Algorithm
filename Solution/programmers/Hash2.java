@@ -25,5 +25,6 @@ public class Hash2 {
 
         Solution sol = new Solution();
         System.out.println(sol.solution(phone_book));
+
     }
 }
