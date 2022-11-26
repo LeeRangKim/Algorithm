@@ -35,9 +35,6 @@ class Solution {
         
         int maxNum = Math.max(one, Math.max(two, three));
         List<Integer> temp = new ArrayList<>();
-        System.out.println(one);
-        System.out.println(two);
-        System.out.println(three);
 
         if(maxNum == one) temp.add(1);
         if(maxNum == two) temp.add(2);
